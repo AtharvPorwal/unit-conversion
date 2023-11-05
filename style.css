@@ -1,0 +1,130 @@
+/**/
+*{
+    margin: 10px;
+}
+
+body{
+    background-color: rgb(240, 237, 237);
+    }
+
+#home{
+background-color: rgb(32, 134, 222);
+margin-left: -1px;
+margin-top: -1px;
+margin-right: -1px;
+padding-bottom: 2cm;
+}
+
+header{
+    font-size: 30px ;
+    color: rgb(240, 234, 245);
+    float: left;
+    padding-left: 2cm;
+}
+.topdiv {
+    float: right;
+    padding-right: 1cm;
+}
+
+/* Navigation Bar Buttons */
+.topmenu {
+    color: lightgray;
+    background-color: #483355;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 1mm;
+}
+.topmenu:hover {
+    color: white;
+    font-weight: bold;
+    background-color: #382742;
+    text-decoration: underline;
+}
+
+/* Container for all conversion calculator sections */
+#all-conversion-sections {
+    display: grid;
+    justify-content: center;
+}
+
+figure {
+    float: left;
+    justify-self: auto;
+    width: 200px;
+}
+
+img {
+    width: 200px;
+}
+
+figcaption {
+    color: black;
+    font-size: 17px;
+    text-align: center;
+}
+
+button {
+    font-size: 20px;
+    border: transparent;
+    width: fit-content;
+    background-color: rgb(173, 218, 173);
+    border-radius: 40px;
+    padding: 10px 15px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+/* The calculator panel */
+.b {
+    border-top: 20px solid;
+    background-color: white;
+    width: 600px;
+    height: 400px;
+    border-radius: 10px;
+    margin: 25px 0;
+    display: flex;
+}
+
+.temperature {
+    border-top-color: green;
+}
+
+.weight {
+    border-top-color: coral;
+}
+
+.distance {
+    border-top-color: cyan;
+}
+
+legend {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* Floating icon for the home button */
+.iconbutton {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: rgb(225, 235, 235);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 40px;
+    left: 0;
+}
+
+.iconbutton img {
+    width: 30px;
+}
+
+footer {
+    background-color: rgb(240, 234, 245);
+    margin-top: 20px;
+}
